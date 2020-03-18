@@ -1,8 +1,8 @@
 # DIS_Automation_Test
 
-- Selenium 4
+# Selenium 4
 
-* Maven Dependency
+# Maven Dependency
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -10,9 +10,9 @@
     <artifactId>selenium-java</artifactId>
     <version>4.0.0-alpha-3</version>
 </dependency>
-------------------------------------------------------------------------------------
 
-* Take Screen Shot of a WebElement (EX)
+
+# Take Screen Shot of a WebElement (EX)
 @Test
   public void screenshotTest() throws IOException {
  
@@ -27,9 +27,9 @@
     
     FileUtils.copyFile(file,new File("logo.png"));
   }
-  ------------------------------------------------------------------------------------
+ 
   
-  * Open Window of Tab (EX)
+  # Open Window of Tab (EX)
   @Test
   public void openNewWindow(){
  
@@ -41,9 +41,8 @@
     driver.navigate().to("https://www.swtestacademy.com");
   }
   
-  ------------------------------------------------------------------------------------
   
-  * Getting Object Location and Size (EX)
+  # Getting Object Location and Size (EX)
   
 @Test
   public void location(){
