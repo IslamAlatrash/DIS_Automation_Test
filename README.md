@@ -10,7 +10,7 @@
     <artifactId>selenium-java</artifactId>
     <version>4.0.0-alpha-3</version>
 </dependency>
-
+------------------------------------------------------------------------------------
 
 * Take Screen Shot of a WebElement (EX)
 @Test
@@ -27,6 +27,7 @@
     
     FileUtils.copyFile(file,new File("logo.png"));
   }
+  ------------------------------------------------------------------------------------
   
   * Open Window of Tab (EX)
   @Test
@@ -39,6 +40,8 @@
     driver.switchTo().newWindow(WindowType.WINDOW);
     driver.navigate().to("https://www.swtestacademy.com");
   }
+  
+  ------------------------------------------------------------------------------------
   
   * Getting Object Location and Size (EX)
   
