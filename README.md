@@ -3,8 +3,6 @@
 # Selenium 4
 
 # Maven Dependency
-
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
