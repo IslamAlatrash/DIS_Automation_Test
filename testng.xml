@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DISTEST Website Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.DISTEST.retryAnalyzer.RetryTransformer" />
+	</listeners>
+
+	<test thread-count="5" name="DISTEST Automation Test Framework">
+		<classes>
+
+			<class name="com.DISTEST.testcases.configTest" />
+			<class name="com.DISTEST.testcases.Test_Home_Page" />
+			<class name="com.DISTEST.testcases.Test_Methodology_Page" />
+			<class name="com.DISTEST.testcases.Test_Service_Page" />
+
+		</classes>
+	</test>
+</suite><!-- Suite -->
+

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite">
+              <span class="suite-name border-passed">DISTEST Website Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DISTEST_Website_Automation_Test_Suite">
+                    <span>C:\Users\LENOVO\Desktop\New folder (6)\QAcart_Selenium_Framework-master\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DISTEST_Website_Automation_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DISTEST_Website_Automation_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DISTEST_Website_Automation_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DISTEST_Website_Automation_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DISTEST_Website_Automation_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DISTEST_Website_Automation_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DISTEST_Website_Automation_Test_Suite" class="hide-methods passed suite-DISTEST_Website_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-DISTEST_Website_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-DISTEST_Website_Automation_Test_Suite" class="show-methods passed suite-DISTEST_Website_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-DISTEST_Website_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DISTEST_Website_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Home_Page" hash-for-method="Test_Case_1">Test_Case_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Service_Page" hash-for-method="Test_Case_10">Test_Case_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Home_Page" hash-for-method="Test_Case_2">Test_Case_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Home_Page" hash-for-method="Test_Case_3">Test_Case_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Home_Page" hash-for-method="Test_Case_4">Test_Case_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Methodology_Page" hash-for-method="Test_Case_5">Test_Case_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Methodology_Page" hash-for-method="Test_Case_6">Test_Case_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Methodology_Page" hash-for-method="Test_Case_7">Test_Case_7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Service_Page" hash-for-method="Test_Case_8">Test_Case_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DISTEST_Website_Automation_Test_Suite" title="com.DISTEST.testcases.Test_Service_Page" hash-for-method="Test_Case_9">Test_Case_9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DISTEST_Website_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DISTEST_Website_Automation_Test_Suite" class="panel DISTEST_Website_Automation_Test_Suite">
+          <div class="suite-DISTEST_Website_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DISTEST.testcases.Test_Home_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_1">
+                  </a> <!-- Test_Case_1 -->
+                  <span class="method-name">Test_Case_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_2">
+                  </a> <!-- Test_Case_2 -->
+                  <span class="method-name">Test_Case_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_3">
+                  </a> <!-- Test_Case_3 -->
+                  <span class="method-name">Test_Case_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_4">
+                  </a> <!-- Test_Case_4 -->
+                  <span class="method-name">Test_Case_4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DISTEST_Website_Automation_Test_Suite-class-passed -->
+          <div class="suite-DISTEST_Website_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DISTEST.testcases.Test_Methodology_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_5">
+                  </a> <!-- Test_Case_5 -->
+                  <span class="method-name">Test_Case_5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_6">
+                  </a> <!-- Test_Case_6 -->
+                  <span class="method-name">Test_Case_6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_7">
+                  </a> <!-- Test_Case_7 -->
+                  <span class="method-name">Test_Case_7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DISTEST_Website_Automation_Test_Suite-class-passed -->
+          <div class="suite-DISTEST_Website_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DISTEST.testcases.Test_Service_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_10">
+                  </a> <!-- Test_Case_10 -->
+                  <span class="method-name">Test_Case_10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_8">
+                  </a> <!-- Test_Case_8 -->
+                  <span class="method-name">Test_Case_8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_9">
+                  </a> <!-- Test_Case_9 -->
+                  <span class="method-name">Test_Case_9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DISTEST_Website_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel DISTEST_Website_Automation_Test_Suite -->
+        <div panel-name="test-xml-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\Desktop\New folder (6)\QAcart_Selenium_Framework-master\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;DISTEST Website Automation Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.DISTEST.retryAnalyzer.RetryTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DISTEST Automation Test Framework&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DISTEST.testcases.configTest&quot;/&gt;
+      &lt;class name=&quot;com.DISTEST.testcases.Test_Home_Page&quot;/&gt;
+      &lt;class name=&quot;com.DISTEST.testcases.Test_Methodology_Page&quot;/&gt;
+      &lt;class name=&quot;com.DISTEST.testcases.Test_Service_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DISTEST Automation Test Framework --&gt;
+&lt;/suite&gt; &lt;!-- DISTEST Website Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DISTEST Website Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DISTEST Automation Test Framework (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DISTEST Website Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DISTEST Website Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DISTEST_Website_Automation_Test_Suite');
+function tableData_DISTEST_Website_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_Case_4')
+data.setCell(0, 2, 'com.DISTEST.testcases.Test_Home_Page')
+data.setCell(0, 3, 2323);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_Case_7')
+data.setCell(1, 2, 'com.DISTEST.testcases.Test_Methodology_Page')
+data.setCell(1, 3, 2208);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_Case_10')
+data.setCell(2, 2, 'com.DISTEST.testcases.Test_Service_Page')
+data.setCell(2, 3, 2171);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_Case_3')
+data.setCell(3, 2, 'com.DISTEST.testcases.Test_Home_Page')
+data.setCell(3, 3, 160);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_Case_1')
+data.setCell(4, 2, 'com.DISTEST.testcases.Test_Home_Page')
+data.setCell(4, 3, 24);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_Case_2')
+data.setCell(5, 2, 'com.DISTEST.testcases.Test_Home_Page')
+data.setCell(5, 3, 14);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_Case_8')
+data.setCell(6, 2, 'com.DISTEST.testcases.Test_Service_Page')
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test_Case_6')
+data.setCell(7, 2, 'com.DISTEST.testcases.Test_Methodology_Page')
+data.setCell(7, 3, 10);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test_Case_9')
+data.setCell(8, 2, 'com.DISTEST.testcases.Test_Service_Page')
+data.setCell(8, 3, 7);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test_Case_5')
+data.setCell(9, 2, 'com.DISTEST.testcases.Test_Methodology_Page')
+data.setCell(9, 3, 7);
+window.suiteTableData['DISTEST_Website_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-DISTEST_Website_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-DISTEST_Website_Automation_Test_Suite">
+              </div> <!-- times-div-DISTEST_Website_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DISTEST Website Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DISTEST_Website_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DISTEST.testcases.configTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DISTEST.testcases.Test_Home_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Home_Page.Test_Case_1() throws java.lang.InterruptedException)</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_1</span>
+                <span class="method-start">17033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_1 status=SUCCESS method=Test_Home_Page.Test_Case_1()[pri:1, instance:com....)</span>
+                <span class="method-start">17059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Home_Page.Test_Case_2() throws java.lang.InterruptedException)</span>
+                <span class="method-start">18343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_2</span>
+                <span class="method-start">31416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_2 status=SUCCESS method=Test_Home_Page.Test_Case_2()[pri:2, instance:com....)</span>
+                <span class="method-start">31432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Home_Page.Test_Case_3() throws java.lang.InterruptedException)</span>
+                <span class="method-start">32696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_3</span>
+                <span class="method-start">45969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_3 status=SUCCESS method=Test_Home_Page.Test_Case_3()[pri:3, instance:com....)</span>
+                <span class="method-start">46130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Home_Page.Test_Case_4() throws java.lang.InterruptedException)</span>
+                <span class="method-start">47382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_4</span>
+                <span class="method-start">59542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_4 status=SUCCESS method=Test_Home_Page.Test_Case_4()[pri:4, instance:com....)</span>
+                <span class="method-start">61866 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DISTEST.testcases.Test_Methodology_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ini(public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_5() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">63121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_5</span>
+                <span class="method-start">77462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_5 status=SUCCESS method=Test_Methodology_Page.Test_Case_5()[pri:5, instan...)</span>
+                <span class="method-start">77470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ini(public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_6() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">78500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_6</span>
+                <span class="method-start">90501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_6 status=SUCCESS method=Test_Methodology_Page.Test_Case_6()[pri:6, instan...)</span>
+                <span class="method-start">90512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ini(public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_7() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">91529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_7</span>
+                <span class="method-start">106806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_7 status=SUCCESS method=Test_Methodology_Page.Test_Case_7()[pri:7, instan...)</span>
+                <span class="method-start">109015 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DISTEST.testcases.Test_Service_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Service_Page.Test_Case_8() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">110196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_8</span>
+                <span class="method-start">122469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_8 status=SUCCESS method=Test_Service_Page.Test_Case_8()[pri:8, instance:c...)</span>
+                <span class="method-start">122483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Service_Page.Test_Case_9() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">123564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_9</span>
+                <span class="method-start">137068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_9 status=SUCCESS method=Test_Service_Page.Test_Case_9()[pri:9, instance:c...)</span>
+                <span class="method-start">137077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void com.DISTEST.testcases.Test_Service_Page.Test_Case_10() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">138321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_10</span>
+                <span class="method-start">151352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Test_Case_10 status=SUCCESS method=Test_Service_Page.Test_Case_10()[pri:10, instanc...)</span>
+                <span class="method-start">153524 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DISTEST.testcases.configTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">154663 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

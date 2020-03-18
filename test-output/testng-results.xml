@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DISTEST Website Automation Test Suite" duration-ms="154414" started-at="2020-03-18T10:49:06Z" finished-at="2020-03-18T10:51:40Z">
+    <groups>
+    </groups>
+    <test name="DISTEST Automation Test Framework" duration-ms="154414" started-at="2020-03-18T10:49:06Z" finished-at="2020-03-18T10:51:40Z">
+      <class name="com.DISTEST.testcases.Test_Methodology_Page">
+        <test-method status="PASS" signature="ini(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="ini" is-config="true" duration-ms="14340" started-at="2020-03-18T10:50:09Z" finished-at="2020-03-18T10:50:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_5() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method status="PASS" signature="Test_Case_5()[pri:5, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="Test_Case_5" duration-ms="7" started-at="2020-03-18T10:50:23Z" finished-at="2020-03-18T10:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_5 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="tearDown" is-config="true" duration-ms="1030" started-at="2020-03-18T10:50:23Z" finished-at="2020-03-18T10:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_5 status=SUCCESS method=Test_Methodology_Page.Test_Case_5()[pri:5, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ini(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="ini" is-config="true" duration-ms="12001" started-at="2020-03-18T10:50:24Z" finished-at="2020-03-18T10:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_6() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method status="PASS" signature="Test_Case_6()[pri:6, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="Test_Case_6" duration-ms="10" started-at="2020-03-18T10:50:36Z" finished-at="2020-03-18T10:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_6 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="tearDown" is-config="true" duration-ms="1017" started-at="2020-03-18T10:50:36Z" finished-at="2020-03-18T10:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_6 status=SUCCESS method=Test_Methodology_Page.Test_Case_6()[pri:6, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ini(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="ini" is-config="true" duration-ms="15277" started-at="2020-03-18T10:50:37Z" finished-at="2020-03-18T10:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Methodology_Page.Test_Case_7() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method status="PASS" signature="Test_Case_7()[pri:7, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="Test_Case_7" duration-ms="2208" started-at="2020-03-18T10:50:52Z" finished-at="2020-03-18T10:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_7 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1]" name="tearDown" is-config="true" duration-ms="1180" started-at="2020-03-18T10:50:55Z" finished-at="2020-03-18T10:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_7 status=SUCCESS method=Test_Methodology_Page.Test_Case_7()[pri:7, instance:com.DISTEST.testcases.Test_Methodology_Page@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DISTEST.testcases.Test_Methodology_Page -->
+      <class name="com.DISTEST.testcases.configTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.DISTEST.testcases.configTest@ff5b51f]" name="setExtent" is-config="true" duration-ms="145" started-at="2020-03-18T10:49:06Z" finished-at="2020-03-18T10:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DISTEST.testcases.configTest@ff5b51f]" name="endReport" is-config="true" duration-ms="217" started-at="2020-03-18T10:51:40Z" finished-at="2020-03-18T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.DISTEST.testcases.configTest -->
+      <class name="com.DISTEST.testcases.Test_Home_Page">
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="start" is-config="true" duration-ms="16868" started-at="2020-03-18T10:49:06Z" finished-at="2020-03-18T10:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Home_Page.Test_Case_1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_1()[pri:1, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="Test_Case_1" duration-ms="24" started-at="2020-03-18T10:49:23Z" finished-at="2020-03-18T10:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="tearDown" is-config="true" duration-ms="1280" started-at="2020-03-18T10:49:23Z" finished-at="2020-03-18T10:49:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_1 status=SUCCESS method=Test_Home_Page.Test_Case_1()[pri:1, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="start" is-config="true" duration-ms="13073" started-at="2020-03-18T10:49:24Z" finished-at="2020-03-18T10:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Home_Page.Test_Case_2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_2()[pri:2, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="Test_Case_2" duration-ms="14" started-at="2020-03-18T10:49:37Z" finished-at="2020-03-18T10:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="tearDown" is-config="true" duration-ms="1263" started-at="2020-03-18T10:49:37Z" finished-at="2020-03-18T10:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_2 status=SUCCESS method=Test_Home_Page.Test_Case_2()[pri:2, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="start" is-config="true" duration-ms="13273" started-at="2020-03-18T10:49:38Z" finished-at="2020-03-18T10:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Home_Page.Test_Case_3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_3()[pri:3, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="Test_Case_3" duration-ms="160" started-at="2020-03-18T10:49:52Z" finished-at="2020-03-18T10:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="tearDown" is-config="true" duration-ms="1251" started-at="2020-03-18T10:49:52Z" finished-at="2020-03-18T10:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_3 status=SUCCESS method=Test_Home_Page.Test_Case_3()[pri:3, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="start" is-config="true" duration-ms="12159" started-at="2020-03-18T10:49:53Z" finished-at="2020-03-18T10:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Home_Page.Test_Case_4() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_4()[pri:4, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="Test_Case_4" duration-ms="2323" started-at="2020-03-18T10:50:05Z" finished-at="2020-03-18T10:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6]" name="tearDown" is-config="true" duration-ms="1254" started-at="2020-03-18T10:50:08Z" finished-at="2020-03-18T10:50:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_4 status=SUCCESS method=Test_Home_Page.Test_Case_4()[pri:4, instance:com.DISTEST.testcases.Test_Home_Page@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DISTEST.testcases.Test_Home_Page -->
+      <class name="com.DISTEST.testcases.Test_Service_Page">
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="start" is-config="true" duration-ms="12272" started-at="2020-03-18T10:50:56Z" finished-at="2020-03-18T10:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Service_Page.Test_Case_8() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_8()[pri:8, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="Test_Case_8" duration-ms="12" started-at="2020-03-18T10:51:08Z" finished-at="2020-03-18T10:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_8 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="tearDown" is-config="true" duration-ms="1081" started-at="2020-03-18T10:51:08Z" finished-at="2020-03-18T10:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_8 status=SUCCESS method=Test_Service_Page.Test_Case_8()[pri:8, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="start" is-config="true" duration-ms="13504" started-at="2020-03-18T10:51:09Z" finished-at="2020-03-18T10:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Service_Page.Test_Case_9() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_9()[pri:9, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="Test_Case_9" duration-ms="7" started-at="2020-03-18T10:51:23Z" finished-at="2020-03-18T10:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_9 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="tearDown" is-config="true" duration-ms="1243" started-at="2020-03-18T10:51:23Z" finished-at="2020-03-18T10:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_9 status=SUCCESS method=Test_Service_Page.Test_Case_9()[pri:9, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="start" is-config="true" duration-ms="13031" started-at="2020-03-18T10:51:24Z" finished-at="2020-03-18T10:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.DISTEST.testcases.Test_Service_Page.Test_Case_10() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test_Case_10()[pri:10, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="Test_Case_10" duration-ms="2171" started-at="2020-03-18T10:51:37Z" finished-at="2020-03-18T10:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Case_10 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742]" name="tearDown" is-config="true" duration-ms="1035" started-at="2020-03-18T10:51:39Z" finished-at="2020-03-18T10:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Case_10 status=SUCCESS method=Test_Service_Page.Test_Case_10()[pri:10, instance:com.DISTEST.testcases.Test_Service_Page@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DISTEST.testcases.Test_Service_Page -->
+    </test> <!-- DISTEST Automation Test Framework -->
+  </suite> <!-- DISTEST Website Automation Test Suite -->
+</testng-results>
